@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "messenger", "messenger\messenger.csproj", "{95622E53-BFF5-4CEB-A0D7-983709B7F276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{BFCB5572-C960-44EF-9887-30B483BD9832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E7CD63A7-4912-45C6-856A-66D3907F1F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95622E53-BFF5-4CEB-A0D7-983709B7F276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95622E53-BFF5-4CEB-A0D7-983709B7F276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95622E53-BFF5-4CEB-A0D7-983709B7F276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95622E53-BFF5-4CEB-A0D7-983709B7F276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCB5572-C960-44EF-9887-30B483BD9832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCB5572-C960-44EF-9887-30B483BD9832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCB5572-C960-44EF-9887-30B483BD9832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCB5572-C960-44EF-9887-30B483BD9832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CD63A7-4912-45C6-856A-66D3907F1F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CD63A7-4912-45C6-856A-66D3907F1F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CD63A7-4912-45C6-856A-66D3907F1F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CD63A7-4912-45C6-856A-66D3907F1F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {005687FE-9A8B-4C39-8DDD-22C783344CDC}
+	EndGlobalSection
+EndGlobal

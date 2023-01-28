@@ -1,0 +1,23 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Chat" Height="465.826" Width="467.735" Closing="Window_Closing">
+    <Grid Margin="0,0,4,-0.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="36" Margin="10,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173"/>
+        <Button x:Name="bConnect" Content="Connect" HorizontalAlignment="Left" Margin="188,27,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="bConnect_Click"/>
+        <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="302" Margin="10,68,0,0" VerticalAlignment="Top" Width="291"/>
+        <ListBox x:Name="lbUsers" HorizontalAlignment="Left" Height="399" Margin="306,27,0,0" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="51" Margin="10,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="291" KeyDown="tbMessage_KeyDown"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="62,0,0,0" VerticalAlignment="Top"/>
+        <Label Content="Users" HorizontalAlignment="Left" Margin="359,1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.432,0.602"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+D:\projects\C#\messenger\messenger\bin\Debug\messenger.dll.config
+D:\projects\C#\messenger\messenger\bin\Debug\messenger.dll
+D:\projects\C#\messenger\messenger\bin\Debug\messenger.pdb
+D:\projects\C#\messenger\messenger\obj\Debug\messenger.csproj.CoreCompileInputs.cache
+D:\projects\C#\messenger\messenger\obj\Debug\messenger.dll
+D:\projects\C#\messenger\messenger\obj\Debug\messenger.pdb
